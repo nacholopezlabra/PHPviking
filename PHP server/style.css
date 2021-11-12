@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+  }
+  body {
+    font-size: 120%;
+    width: 100%;
+    min-height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url(img/back1.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  }
+  
+  .header {
+    width: 400px;
+    min-height: 400px;
+    background: #FFF;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0,0,0,.3);
+    padding: 40px 30px;
+    
+  }
+  form, .content {
+    width: 400px;
+    color: #111;
+    font-weight: 500;
+    font-size: 1.1rem;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    
+    display: block;
+    text-transform: capitalize;
+  }
+  .input-group {
+    margin: 10px 0px 10px 0px;
+    opacity: 5;
+  }
+  .input-group label {
+    display: block;
+    text-align: left; 
+    margin: 3px;
+  }
+  .input-group input {
+    height: 30px;
+    width: 93%;
+    padding: 5px 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid rgb(128, 128, 128);
+
+  }
+  .btn {
+    padding: 10px;
+    font-size: 15px;
+    color: white;
+    background: #11101D;
+    border: none;
+    border-radius: 5px;
+
+  }
+  .error {
+    width: 92%; 
+    margin: 0px auto; 
+    padding: 10px; 
+    border: 1px solid #a94442; 
+    color: #a94442; 
+    background: #f2dede; 
+    border-radius: 5px; 
+    text-align: left;
+  }
+  .success {
+    color: #3c763d; 
+    background: #dff0d8; 
+    border: 1px solid #3c763d;
+    margin-bottom: 20px;
+  }
+.contenedor{
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  top: 20px;
+}
+#logimg{
+  flex: 50%;
+  float: right;
+  
+    height: 150px;
+    width: 150px;
+    top: -37px;
+    left: 28px;
+    position: relative;
+}
+.title_login{
+  flex: 50%;
+  margin: auto;
+}
+.boxT{
+  height: 200px;
+  width: 200px;
+}
+
+  
+.contenedorreg{
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  top: 20px;
+  
+}
+#regimg{
+  flex: 50%;
+  float: right;
+  
+    height: 150px;
+    width: 150px;
+    top: -37px;
+    left: 28px;
+    position: relative;
+}
+.title_reg{
+  flex: 50%;
+  margin: auto;
+}
+.boxT1{
+  height: 200px;
+  width: 200px;
+}

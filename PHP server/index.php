@@ -5,7 +5,8 @@
 <head>
 	<title>shop</title>
 	<link rel="stylesheet" type="text/css" href="web.css">
-	<script src="https://kit.fontawesome.com/b693fdf13b.js" crossorigin="anonymous"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://kit.fontawesome.com/b693fdf13b.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -15,12 +16,8 @@
 			<nav>
 				<ul>
 					<li><a href="#">home</a></li>
-					<li><a href="#">about</a></li>
-					<li><a href="#">collections</a></li>
-					<li><a href="#">category</a></li>
+          <li><a href="login.php">Login/Register</a></li>
           
-          <li><a href="login.php">Login</a></li>
-          <li><a href="register.php">Register</a></li>
          
 				</ul>
 			</nav>
@@ -41,16 +38,16 @@
         <!--radio buttons end-->
         <!--slide images start-->
         <div class="slide first">
-          <img src="/img/1.png" alt="">
+          <img class="imagenes" src="/img/1.png" alt="">
         </div>
         <div class="slide">
-          <img src="/img/2.png" alt="">
+          <img class="imagenes" src="/img/2.png" alt="">
         </div>
         <div class="slide">
-          <img src="/img/3.png" alt="">
+          <img class="imagenes" src="/img/3.png" alt="">
         </div>
         <div class="slide">
-          <img src="/img/4.png" alt="">
+          <img class="imagenes" src="/img/4.png" alt="">
         </div>
         <!--slide images end-->
         <!--automatic navigation start-->

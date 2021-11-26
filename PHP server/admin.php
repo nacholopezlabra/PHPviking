@@ -31,14 +31,14 @@
           </a>
         </li>
       <li>
-       <a href="user.php">
+       <a href="/Crud usuarios/listarU.php">
          <i class='bx bx-user' ></i>
          <span class="links_name">User</span>
        </a>
        <span class="tooltip"></span>
      </li>
      <li>
-          <a href="/Crud productos/formulario.php">
+          <a href="/Crud productos/listar.php">
             <i class='bx bx-coin-stack' ></i>
             <span class="links_name">Shop Stock</span>
           </a>

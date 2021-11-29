@@ -24,9 +24,9 @@
 			<img src="img/cart.png" class="cart">
 		</div>
 		<div class="content">
-			<a href="" class="btn">2021 Style</a>
+			<a href="" class="btn">2021 brand</a>
 			<h1>The end of an era.<br> The start of the style.</h1>
-			<p>Viking style made for shocking and stylish persons.</p>
+			<p>Viking clothes made for shocking and real persons.</p>
 		</div>
 		<div class="slider">
       <div class="slides">

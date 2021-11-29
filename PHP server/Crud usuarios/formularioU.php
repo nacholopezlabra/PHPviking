@@ -19,11 +19,10 @@ $query= mysqli_query($mysqli, $sql_fetch_all)
 
 <div class="row">
     <div class="col-12">
-        <h1>Registrar producto</h1>
+        <h1>Registrar usuario</h1>
         <form action="registrarU.php" method="POST">
             <div class="form-group">
                 <label for="nombre">nombre</label>
-                <input type="hidden" value=<?php echo $_GET['id']?>name="id">
                 <input placeholder="username" class="form-control" type="text" name="username" id="username" required>
             </div>
             <div class="form-group">

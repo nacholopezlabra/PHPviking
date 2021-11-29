@@ -26,13 +26,13 @@ $users = $resultado->fetch_all(MYSQLI_ASSOC);
       </div>
       <ul class="nav-links">
         <li>
-          <a href="../admin.php" class="active">
+          <a href="../admin.php">
             <i class='bx bx-grid-alt'></i>
             <span class="links_name">Dashboard</span>
           </a>
         </li>
         <li>
-          <a href="CRUD usuarios/listarU.php">
+          <a href="listarU.php"  class="active">
             <i class='bx bx-user'></i>
             <span class="links_name">User</span>
           </a>
@@ -50,8 +50,8 @@ $users = $resultado->fetch_all(MYSQLI_ASSOC);
             <span class="links_name">Setting</span>
           </a>
         </li>
-        <li class="../log_out">
-          <a href="logout.php">
+        <li class="log_out">
+          <a href="../logout.php">
             <i class='bx bx-log-out'></i>
             <span class="links_name">Log out</span>
           </a>

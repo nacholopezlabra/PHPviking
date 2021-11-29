@@ -26,7 +26,7 @@ $productos = $resultado->fetch_all(MYSQLI_ASSOC);
       </div>
       <ul class="nav-links">
         <li>
-          <a href="../admin.php" class="active">
+          <a href="../admin.php">
             <i class='bx bx-grid-alt'></i>
             <span class="links_name">Dashboard</span>
           </a>
@@ -39,7 +39,7 @@ $productos = $resultado->fetch_all(MYSQLI_ASSOC);
           <span class="tooltip"></span>
         </li>
         <li>
-          <a href="../Crud productos/listar.php">
+          <a href="listar.php" class="active">
             <i class='bx bx-coin-stack'></i>
             <span class="links_name">Shop Stock</span>
           </a>

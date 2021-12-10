@@ -44,9 +44,9 @@
           </a>
         </li>
         <li>
-          <a href="#">
+          <a href="indexadmin.php">
             <i class='bx bx-cog' ></i>
-            <span class="links_name">Setting</span>
+            <span class="links_name">Page</span>
           </a>
         </li>
         <li class="log_out">

@@ -93,7 +93,7 @@ if (isset($_POST['login_user'])) {
       header('location:admin.php');
       }elseif($results_assoc["rol_id"]==2){
       $_SESSION["is_admin"]==false;
-      header('location:index.php');
+      header('location:indexuser.php');
       }
 
      

@@ -1,16 +1,3 @@
-<?php
-
-session_start();
-if (!isset($_SESSION['is_user']) && $_SESSION["is_user"] = 2) {
-    header('location: login.php');
-}
-
-$username = $_SESSION['username'];
-
-
-?>
-
-
 <!DOCTYPE html>
 <html>
 
@@ -28,7 +15,7 @@ $username = $_SESSION['username'];
 			<nav>
 				<ul>
 					<li><a href="#">home</a></li>
-          <li><a href="index.php">Logout</a></li>
+          <li><a></a></li>
           
          
 				</ul>

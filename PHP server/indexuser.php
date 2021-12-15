@@ -23,7 +23,7 @@
 			<img src="img/cart.png" class="cart">
 		</div>
 		<div class="content">
-			<a href="" class="btn">2021 brand</a>
+			<a href="cart.php" class="btn">2021 brand</a>
 			<h1>The end of an era.<br> The start of the style.</h1>
 			<p>Viking clothes made for shocking and real persons.</p>
 		</div>
